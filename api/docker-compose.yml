@@ -1,0 +1,16 @@
+web:
+  build: .
+  command: bash -c "npm i && npm rebuild && npm start"
+  volumes:
+    - .:/api
+    - /app/node_modules
+  ports:
+    - "3000:3000"
+  links:
+    - mongo
+    - redis
+mongo:
+  image: mongo:latest
+  container_name: mongo_api
+redis:
+  image: redis:latest 
