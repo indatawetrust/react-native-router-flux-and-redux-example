@@ -1,5 +1,7 @@
 # react-native-router-flux-and-redux-example
 
+[demo](http://i.imgur.com/2UiVEtP.gif)
+
 clone repo
 ```bash
 git clone git@github.com:indatawetrust/react-native-router-flux-and-redux-example.git
