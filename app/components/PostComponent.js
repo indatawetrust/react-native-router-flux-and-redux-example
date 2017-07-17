@@ -23,16 +23,6 @@ class PostComponent extends Component {
 
   }
 
-  componentWillMount () {
-
-
-
-  }
-
-  componentWillReceiveProps(n){
-
-  }
-
   @autobind renderRow (item) {
 
     return (<View style={{
